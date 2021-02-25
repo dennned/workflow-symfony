@@ -10,4 +10,5 @@ Steps :
 6 - console make:auth
 7 - console make:registration-form
 8 - console serve -d OR use php -S 127.0.0.1:8000 -t public
-9 - console make:registration-form 
+9 - console make:registration-form
+10 - composer req symfony/workflow
