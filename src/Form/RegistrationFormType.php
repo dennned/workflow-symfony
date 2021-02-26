@@ -27,7 +27,7 @@ class RegistrationFormType extends AbstractType
                 'choices'  => [
                     'Kid' => 'ROLE_KID',
                     'Dad' => 'ROLE_DAD',
-                    'Mum' => 'ROLE_MUM',
+                    'Mam' => 'ROLE_MAM',
                 ],
             ])
             ->add('agreeTerms', CheckboxType::class, [

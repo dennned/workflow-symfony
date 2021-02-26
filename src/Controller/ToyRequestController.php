@@ -13,6 +13,10 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Workflow\WorkflowInterface;
 
+/**
+ * Class ToyRequestController
+ * @package App\Controller
+ */
 class ToyRequestController extends AbstractController
 {
     /**
@@ -65,9 +69,8 @@ class ToyRequestController extends AbstractController
         ]);
     }
 
+    #[Route('/parent', name: 'app_parent')]
     /**
-     * @Route("/parent", name="app_parent")
-     *
      * @param ToyRequestRepository $toyRequestRepository
      * @return Response
      */

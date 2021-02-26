@@ -39,4 +39,5 @@ security:
     # Note: Only the *first* access control that matches will be used
     access_control:
         - { path: ^/new, roles: ROLE_KID }
-        # - { path: ^/profile, roles: ROLE_USER }
+        - { path: ^/parent, roles: ROLE_PARENT }
+        - { path: ^/change, roles: ROLE_PARENT }
