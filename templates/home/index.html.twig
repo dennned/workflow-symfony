@@ -1,7 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}
-    ToyRequest!
+{% block title %}ToyRequest!
 {% endblock %}
 
 {% block body %}
@@ -11,8 +10,8 @@
                 <h1 class="fw-light">ToyRequest</h1>
                 <p class="lead text-muted">Papa, Maman, je veux un jouet ! Promis j'ai été super sage et j'ai fait tous mes devoirs !</p>
                 <p>
-                    <a href="{# { path('app_new') } #}" class="btn btn-primary my-2">Demander un jouet</a>
-                    <a href="{# { path('app_parent') } #}" class="btn btn-secondary my-2">Traiter les demandes</a>
+                    <a href="{{ path('app_new') }}" class="btn btn-primary my-2">Demander un jouet</a>
+                    <a href="{{ path('app_parent') }}" class="btn btn-secondary my-2">Traiter les demandes</a>
                 </p>
             </div>
         </div>
