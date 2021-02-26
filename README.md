@@ -1,7 +1,7 @@
 # workflow-symfony
 workflow symfony
 
-#Steps : 
+# Steps : 
 
 1 - conf database (sqlite)
 
